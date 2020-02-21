@@ -1,0 +1,34 @@
+
+.main-image {
+    max-height : 50vh;
+    max-width:auto;
+}
+.main-content {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.middle {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.card {
+background-color:lightgreen;
+border:solid;
+border-color: aqua;
+padding:10px;
+display:Flex;
+flex-direction:column;
+flex-shrink;
+
+
+}
+h1, h2 {
+    text-align: center;
+}
+
+li {
+    text-transform: capitalize;
+}
